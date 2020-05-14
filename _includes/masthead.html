@@ -14,13 +14,7 @@
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>
-                  {%- if link.title_ui_text_key -%}
-                      {{ site.data.ui-text[site.locale][link.title_ui_text_key] | default: "[title_ui_text_key value not found in ui_text]"}}
-                  {%- else -%}
-                      {{ link.title | default: "[must set title or title_ui_text_key in navigation item]"}}
-                  {%- endif -%}
-              </a>
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
@@ -32,6 +26,12 @@
           </svg>
         </button>
         {% endif %}
+        {%- assign categories_path = "" -%}
+        {%- for category in page.categories -%}
+        {%- assign categories_path = categories_path | append: category | append: "/" -%}
+        {%- endfor -%}
+        <a href="https://{{ site.translation_subdomain }}.{{ site.domain }}/{{ categories_path }}{{ page.slug }}" itemprop="sameAs" rel="nofollow noopener noreferrer"> 🇫🇷 </a>
+
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
