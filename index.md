@@ -12,7 +12,7 @@ toc: true
 The aim of the Opinionated Digital Center is to share directly usable resources such as
 templates, tools and knowledge, which reflect strong opinions on how to help
 developers, teams and organisations to be more effective within the context of Digital
-Centers.
+Development Centers.
 
 These resources are designed and used day-to-day by experienced developers, facilitators
 and managers who got tired of reinventing the wheel when setting up new
