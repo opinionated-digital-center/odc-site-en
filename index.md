@@ -7,17 +7,11 @@ author_profile: true
 title: "Welcome to the Opinionated Digital Center's site"
 toc: true
 ---
-Check our [About page](/about/) to find out more about the center's aim and how we try
-to reach it.
+Check our [About](/about/) page to find out more about the center's aim, how we try
+to reach it and how we organised our resources (other than the posts and articles
+on this website).
 
 ## Resources list
-
-Following [ADR-0008](https://github.com/opinionated-digital-center/architecture-decision-records/blob/master/docs/adr/0008-use-github-as-main-hub-for-the-opinionated-digital-center.md),
-all our projects are hosted on our
-[GitHub account](https://github.com/opinionated-digital-center) (even the GitLab
-related work... see the previously mentioned ADR for details).
-
-List of resources:
 
 * [Organisation-wide Architecture Decision Records (ADRs) repository](https://github.com/opinionated-digital-center/architecture-decision-records).
 * [PyADR](https://github.com/opinionated-digital-center/pyadr), a CLI to help with our
@@ -27,10 +21,12 @@ List of resources:
   scaffold to kick start your Python library and command line interface development
   (including CI/CD pipelines and automated publishing).
 * [Behave4cli](https://gitlab.com/opinionated-digital-center/behave4cli/) (soon to be
-  transfered to GitHub), an extension (testing domain) of Behave to test commands and
+  transfered to GitHub), an extension (testing domain) of
+  [Behave](https://behave.readthedocs.io) to test commands and
   command-line interfaces (console apps).
 * [Behave4git](https://github.com/opinionated-digital-center/behave4git), an extension
-  (testing domain) of Behave to use Git and GitLab (and GitHub in the near future).
+  (testing domain) of [Behave](https://behave.readthedocs.io)
+  to use Git and GitLab (and GitHub in the near future).
 
 Planned addition (stay tuned):
 * A Big Data Project Template.

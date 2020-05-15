@@ -6,7 +6,7 @@ toc: true
 ## Our aim
 
 The aim of the Opinionated Digital Center is to share directly usable resources such as
-templates, tools and knowledge, which reflect strong opinions on how to help
+templates, tools and organised knowledge, which reflect strong opinions on how to help
 developers, teams and organisations to be more effective within the context of Digital
 Development Centers.
 
@@ -21,17 +21,23 @@ but not too much so that they don't become alienated by it.
 
 ## Characteristics of the resources we share
 
+Following [ADR-0008](https://github.com/opinionated-digital-center/architecture-decision-records/blob/master/docs/adr/0008-use-github-as-main-hub-for-the-opinionated-digital-center.md),
+all our projects are hosted on our
+[GitHub account](https://github.com/opinionated-digital-center) (even the GitLab
+related work... see the previously mentioned ADR for details).
+
 The resources we share are:
 
 ### Explained
 
 * The thinking and argumentation behind our choices is mainly recorded in the form of Architecture
-  Decision Records (see [Available resources](#available-resources)).
+  Decision Records (see [ADR-0000](https://github.com/opinionated-digital-center/architecture-decision-records/blob/master/docs/adr/0000-record-architecture-decisions.md)
+  and [ADR-0001](https://github.com/opinionated-digital-center/architecture-decision-records/blob/master/docs/adr/0001-use-markdown-architectural-decision-records.md)).
 
 ### Documented
 
-* Resources come with full documentation, in various forms (actual documentation,
-  humanely readable and understandable tests like in
+* Resources come with an as useful and complete documentation as possible, in various
+  formats (actual documentation, humanely readable and understandable tests like in
   [Gherkin](https://cucumber.io/docs/gherkin/reference/), just to give two examples).
 * References are given wherever useful (see
   [this ADR](https://github.com/opinionated-digital-center/architecture-decision-records/blob/master/docs/adr/0001-use-markdown-architectural-decision-records.md)
@@ -66,5 +72,3 @@ The resources we share are:
 {% include author-details.html %}
 {% endif %}
 {% endfor %}
-
-
