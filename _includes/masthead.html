@@ -30,7 +30,7 @@
         {%- for category in page.categories -%}
         {%- assign categories_path = categories_path | append: category | append: "/" -%}
         {%- endfor -%}
-        <a href="https://{{ site.translation_subdomain }}.{{ site.domain }}/{{ categories_path }}{{ page.slug }}" itemprop="sameAs" rel="nofollow noopener noreferrer"> 🇫🇷 </a>
+        <a href="https://{{ site.translation_subdomain }}.{{ site.domain }}{{ page.url }}" itemprop="sameAs" rel="nofollow noopener noreferrer"> 🇫🇷 </a>
 
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
