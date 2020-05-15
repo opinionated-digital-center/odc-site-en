@@ -17,7 +17,8 @@ organising the sharing of knowledge.
 
 We want to help developers be more creative, innovative and value-adding
 by creating enough structure to support and guide them through their work,
-but not too much so that they don't become alienated by it.
+but not too much so that they don't become alienated by it (which we have unfortunately
+witnessed countless times).
 
 ## Characteristics of the resources we share
 
