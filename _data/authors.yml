@@ -8,6 +8,7 @@ esciara:
 
 amichaud:
   name: "Antoine Michaud"
+  type: contributor
   avatar : https://s.gravatar.com/avatar/f89cf331135afb622761fc4edf823a27?s=160
   email  : amichaud@ekinox.io
   github : antoinemichaud
@@ -15,6 +16,7 @@ amichaud:
 
 slequeux:
   name: "Sylvain Lequeux"
+  type: contributor
   avatar : https://s.gravatar.com/avatar/88c5baa59087dfc25e2581c332069ca6?s=160
   email  : slequeux@ekinox.io
   github : slequeux
