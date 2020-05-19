@@ -1,12 +1,8 @@
 # Opinionated Digital Center's website
 
-Opinionated Digital Center is "opinionated" in the sense that is it reflects strong
-structural and tooling choices, which ODC members believe help developers - and
-development - being more effective within the context of digital centers. (Even though
-we believe large portions also help being more effective in any development project)
+Opinionated Digital Center is "opinionated" in the sense that is it reflects strong structural and tooling choices, which ODC members believe help developers - and development - being more effective within the context of digital centers. (Even though we believe large portions also help being more effective in any development project)
 
-The website is a static website built with
-[![Jekyll](https://raw.githubusercontent.com/jekyll/jekyll/master/docs/img/logo-rss.png)](https://jekyllrb.com/).
+The website is a static website built with[![Jekyll](https://raw.githubusercontent.com/jekyll/jekyll/master/docs/img/logo-rss.png)](https://jekyllrb.com/).
 
 ## License
 
