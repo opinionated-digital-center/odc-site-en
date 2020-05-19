@@ -49,7 +49,7 @@ The resources we share are:
 * No code is delivered without a
   [full test suite](https://github.com/opinionated-digital-center/python-library-project-generator/blob/master/README.rst#fully-tested-features).
 * We aim at staying as close as possible to the
-  [Software Crafsmanship](https://en.wikipedia.org/wiki/Software_craftsmanship)
+  [Software Crafsmanship](https://manifesto.softwarecraftsmanship.org/)
   principles and practices.
 
 ### As straightforward to set up as possible
@@ -68,7 +68,7 @@ The resources we share are:
 
 ## Distinguished Contributors
 {% for item in site.data.authors %}
-{% if item[0] != "esciara" %}
+{% if item[0] == "contributor" %}
 {% assign author = item[1] %}
 {% include author-details.html %}
 {% endif %}
