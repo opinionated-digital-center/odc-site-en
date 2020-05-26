@@ -1,6 +1,6 @@
 ---
 title: "Welcome to the Opinionated Digital Center's website!"
-date: 2019-05-12T20:30
+date: 2020-05-12T20:30
 categories:
   - blog
 tags:
