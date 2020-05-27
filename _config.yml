@@ -80,7 +80,7 @@ analytics:
 
 author:
   name   : "Opinionated Digital Center"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "https://s.gravatar.com/avatar/b75d13c0679dff73d7ca348242ee62b0?s=160"
   bio    : "Argumented opinions, deployable processes and tools that help your digital development center deliver value... now."
   uri: "https://www.opinionated-digital-center.org"
   email: contact@opinionated-digital-center.org
