@@ -5,6 +5,6 @@ export function gitGraphWorkOnProposal(graphContainer) {
     // Simulate git commands with Gitgraph API.
     const master = gitgraph.branch("master");
 
-    master.tag("propose-my-adr-title");
+    master.tag("adr-propose-my-adr-title");
     return gitgraph;
 }

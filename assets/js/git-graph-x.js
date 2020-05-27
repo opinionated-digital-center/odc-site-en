@@ -6,7 +6,7 @@ export function gitGraphX(graphContainer) {
     const master = gitgraph.branch("master");
     master.commit("Starting commit").tag("v0.12.0");
 
-    const adrBranch = master.branch("propose-my-adr-title");
+    const adrBranch = master.branch("adr-propose-my-adr-title");
     adrBranch
         .commit("chore(adr): [propose] XXXX-my-adr-title")
         .commit("chore(adr): update following review")

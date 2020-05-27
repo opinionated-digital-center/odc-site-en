@@ -5,7 +5,7 @@ export function gitGraphAcceptAndMerge(graphContainer) {
     // Simulate git commands with Gitgraph API.
     const master = gitgraph.branch("master");
 
-    const adrBranch = gitgraph.branch("propose-my-adr-title");
+    const adrBranch = gitgraph.branch("adr-propose-my-adr-title");
 
     adrBranch.commit("feat(adr): [accepted] 0003-my-updated-adr-title");
 
