@@ -1,6 +1,7 @@
 ---
 title: "`ADR flow`: Empowering teams to create, maintain and publish Architecture Decision Records"
 date: 2020-05-26T18:30
+author: esciara
 categories:
   - blog
 tags:
@@ -8,9 +9,9 @@ tags:
   - tools
   - techniques
   - knowledge management
-gitgraph: true
-mermaid: true
 toc: true
+mermaid: true
+gitgraph: true
 ---
 
 ## What are ADRs and why they are useful
