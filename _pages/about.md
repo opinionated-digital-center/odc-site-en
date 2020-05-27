@@ -13,7 +13,7 @@ We want to help developers be more creative, innovative and value-adding by crea
 
 ## Characteristics of the resources we share
 
-Following [ADR-0008](https://github.com/opinionated-digital-center/architecture-decision-records/blob/master/docs/adr/0008-use-github-as-main-hub-for-the-opinionated-digital-center.md), all our projects are hosted on our [GitHub account](https://github.com/opinionated-digital-center) (even the GitLab related work... see the previously mentioned ADR for details).
+Following [ADR-0008](https://github.com/opinionated-digital-center/architecture-decision-records/blob/master/docs/adr/0008-use-github-as-main-hub-for-the-opinionated-digital-center.md), all our projects are hosted on our [GitHub account](https://github.com/opinionated-digital-center) (even the GitLab related work... see the aforementioned ADR for details).
 
 The resources we share are:
 
